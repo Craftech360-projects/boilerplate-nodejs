@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/tailwind.css">
+    <title>Submit Data</title>
+</head>
+<body>
+    <h1 class="text-3xl text-red-600">Submit Data</h1>
+    <form action="/add-data" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="text" name="description" placeholder="Enter a description" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
